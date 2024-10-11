@@ -12,7 +12,7 @@ function Signup() {
 
     const navigate = useNavigate();
     const port = 3002
-    const uri = "http://localhost:" + port + "/registeruser";
+    const uri = "https://user-auth-test-flame.vercel.app/" + port + "/registeruser";
     const [ statusText, setStatusText ] = useState("");
 
     const suckingSignup = (formData: any) => {

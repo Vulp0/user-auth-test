@@ -13,7 +13,7 @@ function Login() {
 
     const navigate = useNavigate();
     const port = 3002
-    const uri = "http://localhost:" + port + "/loginuser";
+    const uri = "https://user-auth-test-flame.vercel.app/" + port + "/loginuser";
     const initialFormValues = { Name: "", Password: "" }
     const [ statusText, setStatusText ] = useState("");
 

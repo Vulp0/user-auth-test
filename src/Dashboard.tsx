@@ -5,8 +5,8 @@ import { useNavigate } from 'react-router-dom';
 
 function Dashboard() {
     const port = 3002
-    const dashboardUri = "http://localhost:" + port + "/dashboard";
-    const logoutUri = "http://localhost:" + port + "/logoutuser"
+    const dashboardUri = "https://user-auth-test-flame.vercel.app/" + port + "/dashboard";
+    const logoutUri = "https://user-auth-test-flame.vercel.app/" + port + "/logoutuser"
     const dash = document.querySelector("#dashboard-page");
 
     const [ userName, setUserName ] = useState("");
